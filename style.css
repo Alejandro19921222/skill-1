@@ -33,6 +33,65 @@ nav {
   color: #fafafa;
 }
 
+.mv {
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
+
+.mv-box {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.mv-title {
+  font-size: 64px;
+  color: #fafafa;
+  margin-bottom: 10px;
+}
+
+.mv-text {
+  font-size: 20px;
+  color: #fafafa;
+}
+
+.portfolio {
+  width: 100%;
+  background-color: #eceff1;
+}
+
+.portfolio-box {
+  margin: 0 auto;
+  width: 920px;
+}
+
+.portfolio-title {
+  margin-top: 90px;
+  font-size: 32px;
+  color: #000000;
+  padding-bottom: 8px;
+  position: relative;
+  text-align: center;
+}
+.portfolio-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #ec715f;
+  margin: 8px auto 0;
+}
+
+.portfolio-text {
+  margin: 30px 0;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
 footer {
   height: 60px;
   width: 100%;
